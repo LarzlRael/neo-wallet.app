@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/neo/neo_wallet/BuildConfig.java
- com.neo.neo_wallet.BuildConfig

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "717720706555",
+    "project_id": "neo-wallet-d51a0",
+    "storage_bucket": "neo-wallet-d51a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717720706555:android:0699d2d67f46ee2bd17f5e",
+        "android_client_info": {
+          "package_name": "com.neo.neo_wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717720706555-p3kpr19pmofhc8egrtp0gps5rfb5h8bi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neo.neo_wallet",
+            "certificate_hash": "f84f83ddcf7715243b8edbbc00e514e5a719640c"
+          }
+        },
+        {
+          "client_id": "717720706555-q9ce1ucmvjqp3jp4tqv6l0nku78eomb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neo.neo_wallet",
+            "certificate_hash": "1a82154460769c8ad68e22a691acea743befb563"
+          }
+        },
+        {
+          "client_id": "717720706555-6gs88rnu5bn825rc0jflea5l41coo3hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6FmgUf1PxNDOfUhloHxKiNGmSE9fiUD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717720706555-6gs88rnu5bn825rc0jflea5l41coo3hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

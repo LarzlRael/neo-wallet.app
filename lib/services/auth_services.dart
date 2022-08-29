@@ -192,7 +192,7 @@ class AuthService with ChangeNotifier {
 
   Future logout() async {
     final deviceId = await this.getDeviceId();
-    final resp = await http.get(
+    await http.get(
       Uri.parse('${Enviroments.serverHttpUrl}/auth/logout/$deviceId'),
       headers: {
         'Content-type': 'application/json',
@@ -200,7 +200,6 @@ class AuthService with ChangeNotifier {
       },
     );
     await _storage.delete(key: 'token');
-    
   }
 
   void saveUserinfo(String responsebody) async {

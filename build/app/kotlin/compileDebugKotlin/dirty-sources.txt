@@ -1,0 +1,1 @@
+/home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/android/app/src/main/kotlin/com/example/neo_wallet/MainActivity.kt

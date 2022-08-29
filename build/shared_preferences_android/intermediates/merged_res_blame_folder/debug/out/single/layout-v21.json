@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/shared_preferences_android/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/larz/.gradle/caches/transforms-2/files-2.1/ed8a9c24e589ed88da1c05b415ec9305/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/shared_preferences_android/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/larz/.gradle/caches/transforms-2/files-2.1/ed8a9c24e589ed88da1c05b415ec9305/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/shared_preferences_android/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/larz/.gradle/caches/transforms-2/files-2.1/ed8a9c24e589ed88da1c05b415ec9305/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/shared_preferences_android/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/larz/.gradle/caches/transforms-2/files-2.1/ed8a9c24e589ed88da1c05b415ec9305/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

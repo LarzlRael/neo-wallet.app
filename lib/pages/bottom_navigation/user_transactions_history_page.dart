@@ -1,11 +1,4 @@
-import 'package:animate_do/animate_do.dart';
-import 'package:flutter/material.dart';
-import 'package:neo_wallet/models/transactions_response.dart';
-import 'package:neo_wallet/services/socket_service.dart';
-import 'package:neo_wallet/services/transactions_services.dart';
-import 'package:neo_wallet/widgets/widgets.dart';
-
-import 'package:pull_to_refresh/pull_to_refresh.dart';
+part of '../pages.dart';
 
 class UserTransactionsHistoryPage extends StatefulWidget {
   @override
@@ -87,10 +80,10 @@ class _UserTransactionsHistoryPageState
 
   void listenTransaction(payload) {
     print('sockets ON $payload');
-    final payloadAsObje = UserTransaction.fromJson(payload);
+    final payloadAsObject = UserTransaction.fromJson(payload);
 
     final newHistoryUsew = new HistoryUsersTransactions(
-      userTransaction: payloadAsObje,
+      userTransaction: payloadAsObject,
       animationController: AnimationController(
         vsync: this,
         duration: Duration(milliseconds: 0),

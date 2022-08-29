@@ -1,13 +1,4 @@
-import 'dart:async';
-import 'dart:convert';
-
-import 'package:http/http.dart' as http;
-import 'package:neo_wallet/enviroments/variables_enviroments.dart'
-    as Enviroments;
-
-import 'package:neo_wallet/models/wallets_users_response.dart';
-
-import 'auth_services.dart';
+part of 'services.dart';
 
 class WalletServices {
   String _url = '${Enviroments.serverHttpUrl}/wallet';

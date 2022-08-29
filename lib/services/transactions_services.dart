@@ -1,14 +1,4 @@
-import 'dart:async';
-import 'dart:convert';
-
-import 'package:flutter/foundation.dart';
-import 'package:http/http.dart' as http;
-import 'package:neo_wallet/enviroments/variables_enviroments.dart'
-    as Enviroments;
-import 'package:neo_wallet/models/send_amout_response.dart';
-import 'package:neo_wallet/models/transactions_response.dart';
-
-import 'auth_services.dart';
+part of 'services.dart';
 
 class TransactionsServices with ChangeNotifier {
   //

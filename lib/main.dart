@@ -2,10 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 import 'package:neo_wallet/routes/routes.dart';
-import 'package:neo_wallet/services/auth_services.dart';
-import 'package:neo_wallet/services/push_notification_services.dart';
-import 'package:neo_wallet/services/socket_service.dart';
-import 'package:neo_wallet/services/transactions_services.dart';
+import 'package:neo_wallet/services/services.dart';
 import 'package:neo_wallet/shared_preferences/shared_preferences.dart';
 import 'package:provider/provider.dart';
 

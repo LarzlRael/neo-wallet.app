@@ -1,10 +1,4 @@
-import 'dart:convert';
-
-import 'package:http/http.dart' as http;
-import 'package:neo_wallet/enviroments/variables_enviroments.dart'
-    as Enviroments;
-
-import 'auth_services.dart';
+part of 'services.dart';
 
 class MailServices {
   Future<bool> sendEmailVerification(String email) async {

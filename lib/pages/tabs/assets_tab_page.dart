@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of '../pages.dart';
 
 class AssetsTabPage extends StatelessWidget {
   @override

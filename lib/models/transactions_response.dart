@@ -1,8 +1,4 @@
-// To parse this JSON data, do
-//
-//     final transactionsResponse = transactionsResponseFromJson(jsonString);
-
-import 'dart:convert';
+part of 'models.dart';
 
 TransactionsResponse transactionsResponseFromJson(String str) =>
     TransactionsResponse.fromJson(json.decode(str));

@@ -1,11 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:ionicons/ionicons.dart';
-import 'package:neo_wallet/models/usuario.dart';
-import 'package:neo_wallet/services/auth_services.dart';
-import 'package:neo_wallet/services/mail_services.dart';
-import 'package:neo_wallet/services/socket_service.dart';
-import 'package:neo_wallet/utils/utils.dart';
-import 'package:provider/provider.dart';
+part of '../pages.dart';
 
 class VerifyAccount extends StatefulWidget {
   @override

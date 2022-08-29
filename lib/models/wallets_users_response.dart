@@ -1,8 +1,4 @@
-// To parse this JSON data, do
-//
-//     final userWalletsResponse = userWalletsResponseFromJson(jsonString);
-
-import 'dart:convert';
+part of 'models.dart';
 
 UserWalletsResponse userWalletsResponseFromJson(String str) =>
     UserWalletsResponse.fromJson(json.decode(str));

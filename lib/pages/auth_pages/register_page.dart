@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:neo_wallet/helpers/helpers.dart';
-import 'package:neo_wallet/services/auth_services.dart';
-import 'package:neo_wallet/widgets/widgets.dart';
-import 'package:provider/provider.dart';
+part of '../pages.dart';
 
 class RegisterPage extends StatelessWidget {
   @override
@@ -33,7 +29,7 @@ class RegisterPage extends StatelessWidget {
   }
 }
 
-class _Form extends StatefulWidget {
+class _FormRegister extends StatefulWidget {
   @override
   __FormState createState() => __FormState();
 }

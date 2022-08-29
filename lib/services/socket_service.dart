@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:neo_wallet/enviroments/variables_enviroments.dart'
-    as Enviroment;
-
-import 'package:neo_wallet/services/auth_services.dart';
-
-import 'package:socket_io_client/socket_io_client.dart' as IO;
+part of 'services.dart';
 
 enum ServerStatus {
   Online,
@@ -29,7 +23,7 @@ class SocketService with ChangeNotifier {
     // Dart client
 
     this._socket = IO.io(
-        Enviroment.socketUrl,
+        Enviroments.socketUrl,
         IO.OptionBuilder()
             .setTransports(['websocket']) // for Flutter or Dart VM
             .enableAutoConnect() // disable auto-connection

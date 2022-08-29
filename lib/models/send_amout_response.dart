@@ -1,8 +1,4 @@
-// To parse this JSON data, do
-//
-//     final sendAmoutResponse = sendAmoutResponseFromJson(jsonString);
-
-import 'dart:convert';
+part of 'models.dart';
 
 SendAmoutResponse sendAmoutResponseFromJson(String str) =>
     SendAmoutResponse.fromJson(json.decode(str));

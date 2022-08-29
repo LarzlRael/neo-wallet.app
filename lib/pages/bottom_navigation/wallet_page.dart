@@ -1,11 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:ionicons/ionicons.dart';
-import 'package:neo_wallet/models/transactions_response.dart';
-import 'package:neo_wallet/services/auth_services.dart';
-import 'package:provider/provider.dart';
-import 'package:pull_to_refresh/pull_to_refresh.dart';
-import 'package:neo_wallet/services/transactions_services.dart';
-import 'package:neo_wallet/widgets/widgets.dart';
+part of '../pages.dart';
 
 class WalletPage extends StatefulWidget {
   @override

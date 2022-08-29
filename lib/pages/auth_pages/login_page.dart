@@ -1,11 +1,4 @@
-import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter/material.dart';
-import 'package:neo_wallet/services/auth_services.dart';
-import 'package:neo_wallet/shared_preferences/shared_preferences.dart';
-import 'package:neo_wallet/widgets/widgets.dart';
-import 'package:provider/provider.dart';
-
-import '../../helpers/helpers.dart';
+part of '../pages.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -38,10 +31,10 @@ class LoginPage extends StatelessWidget {
 
 class _Form extends StatefulWidget {
   @override
-  __FormState createState() => __FormState();
+  _FormRegisterState createState() => _FormRegisterState();
 }
 
-class __FormState extends State<_Form> {
+class _FormRegisterState extends State<_Form> {
   final prefs = UserPreferences();
 
   final emailCtrl = TextEditingController();

@@ -1,17 +1,4 @@
-import 'dart:convert';
-
-import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
-import 'package:neo_wallet/enviroments/variables_enviroments.dart'
-    as Enviroments;
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:neo_wallet/models/error_response.dart';
-
-import 'package:neo_wallet/models/login_response.dart';
-import 'package:neo_wallet/models/usuario.dart';
-import 'package:neo_wallet/models/wallets_users_response.dart';
-import 'package:neo_wallet/utils/utils.dart';
+part of 'services.dart';
 
 class AuthService with ChangeNotifier {
   //

@@ -1,10 +1,4 @@
-// To parse this JSON data, do
-//
-//     final usuario = usuarioFromJson(jsonString);
-
-import 'dart:convert';
-
-import 'package:neo_wallet/models/wallets_users_response.dart';
+part of 'models.dart';
 
 Usuario usuarioFromJson(String str) => Usuario.fromJson(json.decode(str));
 

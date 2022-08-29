@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:neo_wallet/models/transactions_response.dart';
-import 'package:neo_wallet/services/auth_services.dart';
+import 'package:neo_wallet/models/models.dart';
+import 'package:neo_wallet/services/services.dart';
 import 'package:neo_wallet/utils/utils.dart';
 import 'package:provider/provider.dart';
 import 'package:animate_do/animate_do.dart';
@@ -14,3 +14,4 @@ part 'labels_login.dart';
 part 'history_users_transactions.dart';
 part 'wallet_card.dart';
 part 'transactions_info.dart';
+part 'wallet_status.dart';

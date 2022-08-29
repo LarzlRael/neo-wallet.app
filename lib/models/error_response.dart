@@ -1,8 +1,4 @@
-// To parse this JSON data, do
-//
-//     final errorResponse = errorResponseFromJson(jsonString);
-
-import 'dart:convert';
+part of 'models.dart';
 
 ErrorResponse errorResponseFromJson(String str) =>
     ErrorResponse.fromJson(json.decode(str));

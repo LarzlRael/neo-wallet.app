@@ -15,7 +15,7 @@ class RegisterPage extends StatelessWidget {
                 Center(
                   child: Logo(title: 'N.E.O'),
                 ),
-                _Form(),
+                _FormRegister(),
                 Labels(
                     route: 'login',
                     title: 'Entrar con mi cuenta',
@@ -34,7 +34,7 @@ class _FormRegister extends StatefulWidget {
   __FormState createState() => __FormState();
 }
 
-class __FormState extends State<_Form> {
+class __FormState extends State<_FormRegister> {
   final emailCtrl = TextEditingController();
   final passCtrl = TextEditingController();
   final nameCtrl = TextEditingController();

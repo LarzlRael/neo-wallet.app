@@ -15,7 +15,7 @@ class LoginPage extends StatelessWidget {
                 Center(
                   child: Logo(title: 'N.E.O'),
                 ),
-                _Form(),
+                _FormLogin(),
                 Labels(
                     route: 'register',
                     title: '¿No tienes cuenta?',
@@ -29,12 +29,12 @@ class LoginPage extends StatelessWidget {
   }
 }
 
-class _Form extends StatefulWidget {
+class _FormLogin extends StatefulWidget {
   @override
-  _FormRegisterState createState() => _FormRegisterState();
+  _FormLoginState createState() => _FormLoginState();
 }
 
-class _FormRegisterState extends State<_Form> {
+class _FormLoginState extends State<_FormLogin> {
   final prefs = UserPreferences();
 
   final emailCtrl = TextEditingController();

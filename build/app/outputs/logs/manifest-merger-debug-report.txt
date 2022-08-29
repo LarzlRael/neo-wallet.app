@@ -12,6 +12,7 @@ MERGED from [:flutter_barcode_scanner] /home/larz/Projects/N.E.O/Neo_Wallet/neo_
 MERGED from [:image_picker_android] /home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/image_picker_android/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
 MERGED from [:flutter_plugin_android_lifecycle] /home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_secure_storage] /home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:flutter_native_splash] /home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/larz/.gradle/caches/transforms-2/files-2.1/0787c333479207a7950943f938a82176/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /home/larz/.gradle/caches/transforms-2/files-2.1/eeafb087269235dd016f116c2b9f21c9/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.firebase:firebase-messaging:23.0.7] /home/larz/.gradle/caches/transforms-2/files-2.1/eef88f6426cba89d05437e6b87897c02/jetified-firebase-messaging-23.0.7/AndroidManifest.xml:17:1-62:12
@@ -233,6 +234,8 @@ MERGED from [:flutter_plugin_android_lifecycle] /home/larz/Projects/N.E.O/Neo_Wa
 MERGED from [:flutter_plugin_android_lifecycle] /home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_secure_storage] /home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-11:53
 MERGED from [:flutter_secure_storage] /home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/flutter_secure_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-11:53
+MERGED from [:flutter_native_splash] /home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_native_splash] /home/larz/Projects/N.E.O/Neo_Wallet/neo_wallet.app/build/flutter_native_splash/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/larz/.gradle/caches/transforms-2/files-2.1/0787c333479207a7950943f938a82176/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /home/larz/.gradle/caches/transforms-2/files-2.1/0787c333479207a7950943f938a82176/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /home/larz/.gradle/caches/transforms-2/files-2.1/eeafb087269235dd016f116c2b9f21c9/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41

@@ -512,5 +512,10 @@ packages:
     source: hosted
     version: "0.2.0+2"
 sdks:
+<<<<<<< Updated upstream:pubspec.lock
   dart: ">=2.17.6 <3.0.0"
   flutter: ">=3.0.0"
+=======
+  dart: ">=2.17.0-0 <3.0.0"
+  flutter: ">=2.8.0"
+>>>>>>> Stashed changes:neo_wallet.app/pubspec.lock
